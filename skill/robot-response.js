@@ -19,7 +19,7 @@ module.exports = class SkillSimpleResponse {
                 // Set payload to message as it is.
                 message = {
                   type: "text",
-                  text: "料金についてだね、今準備中です。"
+                  text: "料金についてだね。了解です。"
                 };
                 for (let property of Object.keys(context.intent.fulfillment[offset].payload.fields)){
                     if (context.intent.fulfillment[offset].payload.fields[property] && context.intent.fulfillment[offset].payload.fields[property].kind){
